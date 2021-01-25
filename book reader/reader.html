@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link type="text/css" rel="stylesheet" href="css/readerstyle.css">
+
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Book reader</title>
+</head> 
+<body>
+
+<div id="page-container">
+
+<div class="superstar">
+ <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()"><p id="pagenumber"></p>
+      <i class="fa fa-caret-down"></i></button>
+      <script>
+        document.getElementById("pagenumber").innerHTML = document.getElementById("myDropdown").currentDiv();
+        </script>
+
+ <div class="dropdown-content" id="myDropdown">
+  <button onclick="currentDiv(1)">0</button> <br> 
+  <button onclick="currentDiv(2)">1</button> <br>
+  <button onclick="currentDiv(3)">2</button> <br>
+  <button onclick="currentDiv(4)">3</button> <br>
+  <button onclick="currentDiv(5)">4</button> <br>
+  <button onclick="currentDiv(6)">5</button> <br>
+  <button onclick="currentDiv(7)">6</button> <br>
+  <button onclick="currentDiv(8)">7</button> <br>
+  <button onclick="currentDiv(9)">8</button> <br>
+  <button onclick="currentDiv(10)">9</button> <br>
+  <button onclick="currentDiv(11)">10</button> <br>
+  <button onclick="currentDiv(12)">11</button> <br> 
+  <button onclick="currentDiv(13)">12</button> <br>
+  <button onclick="currentDiv(14)">13</button> <br>
+  <button onclick="currentDiv(15)">14</button> <br>
+  <button onclick="currentDiv(16)">15</button> <br>
+  <button onclick="currentDiv(17)">16</button> <br>
+  <button onclick="currentDiv(18)">17</button> <br>
+  <button onclick="currentDiv(19)">18</button> <br>
+  <button onclick="currentDiv(20)">19</button> <br>
+  <button onclick="currentDiv(21)">20</button> <br>
+  <button onclick="currentDiv(22)">21</button> <br> 
+  <button onclick="currentDiv(23)">22</button> <br>
+  <button onclick="currentDiv(24)">23</button> <br>
+  <button onclick="currentDiv(25)">24</button> <br>
+  <button onclick="currentDiv(26)">25</button> <br>
+  <button onclick="currentDiv(27)">26</button> <br>
+</div>
+ <button class="previous" onclick="plusDivs(-1)">&#60;</button>
+ <button class="navigating" onclick="plusDivs(1)">&#62;</button>
+
+  <img class="mySlides" alt="slideimage" src="001/pgcover.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page01.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page02.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page03.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page04.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page05.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page06.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page07.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page08.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page09.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page10.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page11.png"onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page12.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page13.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page14.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page15.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page16.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page17.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page18.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page19.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page20.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page21.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page22.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page23.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page24.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/page25.png" onclick="plusDivs(1)">
+  <img class="mySlides" alt="slideimage" src="001/pagethanks.png" onclick="plusDivs(1)">
+</div>
+</div>
+<br>
+<script src="js/reader.js"></script>
+
+</div>
+</body>
+</html>
